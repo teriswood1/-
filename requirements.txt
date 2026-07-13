@@ -1,0 +1,5 @@
+ultralytics>=8.3,<9
+opencv-python>=4.9
+PyYAML>=6.0
+# Optional: install pyttsx3 to enable offline speech on supported platforms.
+# pyttsx3>=2.90

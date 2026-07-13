@@ -1,0 +1,29 @@
+# Copy this file to configs/models.yaml and set local weight paths.
+# Weight files are intentionally excluded from Git because of their size.
+models:
+  - name: tactile-paving
+    weights: models/tactile-paving.pt
+    confidence: 0.45
+    classes:
+      0: horizontal-directional-tactile
+      1: vertical-directional-tactile
+      2: warning-tactile
+  - name: road-obstacles
+    weights: models/road-obstacles.pt
+    confidence: 0.50
+    classes:
+      0: bicycle
+      1: bollard
+      2: car
+      3: dustbin
+      4: electrocar
+      5: handrail
+      6: people
+      7: pole
+      8: stone pier
+      9: tactile paving
+      10: traffic cone
+      11: tree
+      12: tricycle
+      13: warning signs
+      14: well

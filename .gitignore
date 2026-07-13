@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+Android-studio/
+flutter/
+weights/
+models/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model weights and exported models
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.pb
+*.npy
+
+# Training outputs, datasets and local media
+runs/
+datasets/
+data/
+project/dataset_blindpath/
+project/Traffic_lights/
+project/runs/
+project/samples/
+*.cache
+*.log
+*.mp4
+*.avi
+
+# Local configuration and secrets
+.env
+configs/models.yaml
